@@ -1,0 +1,21 @@
+{
+  "players": [
+    {
+      "name": "Player1",
+      "startX": 1,
+      "startY": 1
+    }
+  ],
+  "pressurePlates": [
+    {
+      "x": 2,
+      "y": 2
+    }
+  ],
+  "doors": [
+    {
+      "x": 3,
+      "y": 3
+    }
+  ]
+}
