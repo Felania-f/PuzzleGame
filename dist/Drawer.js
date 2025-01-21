@@ -1,4 +1,4 @@
-export class Drawer {
+class Drawer {
     constructor(width, height, scale = 10) {
         this.scale = scale;
         const canvas = document.createElement('canvas');
