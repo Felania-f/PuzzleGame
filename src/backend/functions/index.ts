@@ -5,7 +5,7 @@ enum Status {
     STARTED = 'started'
 }
 async function connectDatabase() {
-    await mongoose.connect('mongodb://root:password@localhost:27017/mongo?authSource=admin');
+    await mongoose.connect(process.env.MONGO_URL);
     console.log('Connected to MongoDB');
 }
 const data = {
